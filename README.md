@@ -61,7 +61,7 @@ This program uses interrupts instead of polling. It's better that way.
 
 Due to the proprietary nature of TPI programming and mEDBG programmers
 (both of which are required for programming ATTiny104 MCUs), you will need
-Atmel Studio on Windows, or the Partial installation see [here](https://github.com/Anobium/Tiny104_USART/blob/master/ATPrpogrammer/ATPrpogrammer.zip)  to do program
+Atmel Studio on Windows, or the Partial installation see [here](https://github.com/Anobium/Tiny104_USART/blob/master/ATPrpogrammer/ATPrpogrammer.zip)  to program
 the board.
 
 The serial port in the terminal program needs to be set to 9800/8N1 to
