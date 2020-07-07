@@ -160,7 +160,7 @@ BASPROGRAMEND:
 
 ;********************************************************************************
 
-;Source: usart.h (1491)
+;Source: usart.h (1492)
 HSERSENDRC:
 ;AVR USART1 Send
 ;Wait While UDRE = Off
@@ -202,7 +202,7 @@ INITSYS:
 
 ;********************************************************************************
 
-;Source: usart.h (481)
+;Source: usart.h (482)
 INITUSART:
 ;Set baud rate
 ;U2X = U2X0_TEMP       'Set/Clear bit to double USART transmission speed
