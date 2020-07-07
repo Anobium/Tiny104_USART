@@ -21,12 +21,12 @@ If you are not using this board, you will need to adjust ports, pins, etc.
 ##CONTROLLING THE BOARD:
 
 Because of the TPI programmer that is required for programming ATTiny104
-MCUs, you will have no choice (for now) but to use Atmel Studio on Windows
-to program this MCU. On Windows, I highly recommend you use Terminal as
+MCUs to use Atmel Studio on Windows or just to program use the ATPROG [here](https://github.com/Anobium/Tiny104_USART/blob/master/ATPrpogrammer/ATPrpogrammer.zip)
+ to program this MCU. On Windows, I recommend you use Terminal as
 your terminal program. It offers significantly more granular functionality
 than basic serial terminals.
 
-Termial can "Send" tab can send bytes (enter the decimal form in the --Transmit --
+Terminal can "Send" tab can send bytes (enter the decimal form in the --Transmit --
 form field and click "Send").  If you're not on Windows, find a
 terminal program that allows sending bytes.
 
@@ -61,7 +61,7 @@ This program uses interrupts instead of polling. It's better that way.
 
 Due to the proprietary nature of TPI programming and mEDBG programmers
 (both of which are required for programming ATTiny104 MCUs), you will need
-Atmel Studio on Windows, or the Partial installation (see here)  to do program
+Atmel Studio on Windows, or the Partial installation see [here](https://github.com/Anobium/Tiny104_USART/blob/master/ATPrpogrammer/ATPrpogrammer.zip)  to do program
 the board.
 
 The serial port in the terminal program needs to be set to 9800/8N1 to
