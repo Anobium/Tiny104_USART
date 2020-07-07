@@ -74,8 +74,9 @@ dumb devices, it trusts you completely. Sending a byte and processing it
 immediately (and then forgetting about it) makes this all very compact.
 On my system, Great Cow BASIC reports 190 PROGMEM bytes of storage and 3 bytes of
 RAM used, which fall well within the device's 1k of storage and 32
-bytes of memory.  Considering that this implementation that supports up to 115k,
-and you can select any OSC internal operating frequency ... that is not too bad.
+bytes of memory.  Considering that this implementation that supports up to 115k, the 
+value sent is returned to the terminal, and you can select any OSC internal operating frequency 
+... not too bad.
 
 ##CAVEATS:
 
