@@ -246,6 +246,7 @@ ISR:
 	lds	SysTemp1,SERDATA
 	com	SysTemp1
 	out	PORTA,SysTemp1
+;Optionally, return the value back to the terminal
 ;HSerSend Serdata
 	rjmp	HSERSENDRC
 

@@ -81,6 +81,9 @@ Sub ISR
   SerData = UDR
   // Invert the bits so, bit 4 = d32 to set the LED.
   PORTA = !Serdata
+
+  //Optionally, return the value back to the terminal
   HSerSend Serdata
 
 End Sub
+
