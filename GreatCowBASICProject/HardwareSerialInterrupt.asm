@@ -99,9 +99,9 @@ BASPROGRAMSTART:
 ;''********************************************************************************
 ;Start of board specific configuration
 ;Adjust Oscillator frequency to ensure operation of Serial, if required
-;OSCCAL = OSCCAL - 22
+;OSCCAL = OSCCAL - 5
 	in	SysTemp1,OSCCAL
-	ldi	SysTemp2,22
+	ldi	SysTemp2,5
 	sub	SysTemp1,SysTemp2
 	out	OSCCAL,SysTemp1
 ;#Define SWITCH  portb.1

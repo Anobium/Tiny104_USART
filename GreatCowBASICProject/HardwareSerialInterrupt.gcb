@@ -17,7 +17,7 @@
   ; Start of board specific configuration
 
   ;Adjust Oscillator frequency to ensure operation of Serial, if required
-  OSCCAL = OSCCAL - 22
+  OSCCAL = OSCCAL - 5
 
   #Define SWITCH  portb.1
   #Define LED     porta.5
@@ -84,4 +84,3 @@ Sub ISR
   HSerSend Serdata
 
 End Sub
-
